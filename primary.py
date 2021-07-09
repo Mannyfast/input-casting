@@ -1,5 +1,5 @@
-# author: <name here>
-# date: <date here>
+# author: <malik>
+# date: <7/8/21>
 
 # -------------------- Section 1 -------------------- #
 
@@ -17,6 +17,9 @@
 #   deppe, elia
 #
 # ---- WRITE CODE BELOW ---- #
+firstname=input('first name')
+lastname=input('lastname')
+print('hello who are you', 'my name is', firstname, lastname)
 
 
 #   2. Pyramid
@@ -25,7 +28,7 @@
 #           duplicates of text symbol?)
 #
 # ----- EXAMPLE OUTPUT ----- #
-#   >> $
+#   >>
 #
 #   $
 #   $$
@@ -34,7 +37,12 @@
 #   $
 #
 # ---- WRITE CODE BELOW ---- #
-
+symbol=input('enter symbol')
+print(symbol*1)
+print(symbol*2)
+print(symbol*3)
+print(symbol*2)
+print(symbol*1)
 
 #   3. Parallelogram
 #       a. Prompt input from the user in the form of a single character. Save to a variable named symbol.
@@ -52,8 +60,15 @@
 #     @@
 #      @
 #
-# ---- WRITE CODE BELOW ---- #
-
+# ---- WRITE CODE BELOW ---- #~
+Symbol=input('enter symbol')
+print('enter symbol'*1)
+print('enter symbol'*2)
+print('enter symbol'*3)
+print('enter symbol'*4)
+print('enter symbol'*3)
+print('enter symbol'*2)
+print('enter symbol'*1)
 
 # -------------------- Section 2 -------------------- #
 
@@ -76,23 +91,25 @@
 #   num3 (float) | 21322.4
 #
 # ---- WRITE CODE BELOW ---- #
-
-
+num1=input('enter a number')
+num2=int(input(10))
+num3=int(input(21.1))
+print(num1*10, num2*10, num3*10)
 # Objectives:
 #   2. Diameter of a Circle
 #       a. Prompt input from the user to enter a radius. Save this value to a
-#           variable named num as an integer or float.
-#       b. Compute the diameter, and print it to the user.
-#           diameter = radius * 2
-#
-# ----- EXAMPLE OUTPUT ----- #
-#   >> radius... 12.3
-#
-#   diameter = 24.6
-#
-# ---- WRITE CODE BELOW ---- #
-
-
+# #           variable named num as an integer or float.
+# #       b. Compute the diameter, and print it to the user.
+# #           diameter = radius * 2
+# #
+# # ----- EXAMPLE OUTPUT ----- #
+# #   >> radius... 12.3
+# #
+# #   diameter = 24.6
+# #
+# # ---- WRITE CODE BELOW ---- #
+num=int(input(11))
+print(num*2)
 # Objectives:
 #   3. Area of a Circle
 #       a. Define a function named area_circle(). Accept the parameters listed below.
@@ -117,3 +134,5 @@
 #
 # Create a conversation with a faux (fake) AI, using input and print().
 # See the example in example.py
+Ai=input('fake')
+print('hi my name is',Ai, 'i will be helping you with your math homework')

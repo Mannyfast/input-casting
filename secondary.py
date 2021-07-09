@@ -36,8 +36,18 @@
 #           $
 #
 # ---- WRITE CODE BELOW ---- #
-
-
+money=input('symbol')
+print('symbol')
+print('symbol'*3)
+print('symbol'*5)
+print('symbol'*7)
+print('symbol'*11)
+print('symbol'*13)
+print('symbol'*11)
+print('symbol'*7)
+print('symbol'*5)
+print('symbol'*3)
+print('symbol')
 #   2. Framed Diamond
 #       a. Define a function that accept the parameters listed below.
 #           Name   | Type(s)         | Description
